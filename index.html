@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha51-SwdPD6INVrV/lHTZbOnodKhrnDdJK9/kgXD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>WEATHER</title>
+</head>
+<body>
+    <div id="container">
+        <div id="head">
+            <img src="weather-logo.svg" id="logo" width="150" height="144" alt="Weather Logo">
+            <div id="wall">
+                <input type="text" id="input" placeholder="Enter location">
+                <div id="suggestions"></div>
+                <button id="search"><i class="fa-solid fa-magnifying-glass" style="color: aliceblue;;"></i></button>
+            </div>
+        </div>
+        <div id="foot" >
+            <div id="top3">
+                <div class="top" ></div>
+                <div class="top"></div>
+                <div class="top"></div>
+                <div class="top"></div>
+                <div class="top"></div>
+            </div>
+        </div>
+
+        <div id="top2">
+            <div class="hour" id="hour0">
+                <div class="time"></div>
+                <div class="in"></div>
+                <div class="tmt"></div>
+            </div>
+            <div class="hour" id="hour1">
+                <div class="time"></div>
+                <div class="in"></div>
+                <div class="tmt"></div>
+            </div>
+            <div class="hour" id="hour2">
+                <div class="time"></div>
+                <div class="in"></div>
+                <div class="tmt"></div>
+            </div>
+            <div class="hour" id="hour3">
+                <div class="time"></div>
+                <div class="in"></div>
+                <div class="tmt"></div>
+            </div>
+            <div class="hour" id="hour4">
+                <div class="time"></div>
+                <div class="in"></div>
+                <div class="tmt"></div>
+            </div>
+            <div class="hour" id="hour5">
+                <div class="time"></div>
+                <div class="in"></div>
+                <div class="tmt"></div>
+            </div>
+            <div class="hour" id="hour6">
+                <div class="time"></div>
+                <div class="in"></div>
+                <div class="tmt"></div>
+            </div>
+            <div class="hour" id="hour7">
+                <div class="time"></div>
+                <div class="in"></div>
+                <div class="tmt"></div>
+            </div>
+          </div>
+        
+        <!-- hour -->
+            
+        <!-- hour -->
+
+
+        <div id="details1">
+            
+            <div class="details"><div id="wind"><i class="fa-solid fa-wind" style="color:rgb(255, 212, 59);"></i>Wind</div><div id="wi"></div></div>
+
+            <div class="details"> <div id="humidity"><i class="fa-solid fa-water" style="color:rgb(255, 212, 59);"></i>Humidity</div><div id="hu"></div></div>
+
+            <div class="details"><div id="visibility"><i class="fa-solid fa-eye" style="color:rgb(255, 212, 59);"></i>Visibility</div><div id="vi"></div></div>
+
+            <div class="details"><div id="uv">⏱️Pressure</div><div id="pr"></div></div>
+
+        </div>
+
+        <div id="top1">
+            <img src="https://openweathermap.org/img/widget_icons/pin-outline.svg" id="loc" >
+            
+            <div id="adr"> Address -------</div>
+
+            <div id="temp">40</div><div id="cc">°C</div>
+
+            <img id="icon" src="" alt="weather icon" />
+            <div id="feel">H: 41°  ·  L: 8°  ·  Feels like 44°</div>
+
+           
+            <div id="pp">sun</div>
+        </div>
+        <div id="day0">
+            <div id="dot">🔴</div>
+            <div id="today">TODAY</div>
+            <div id="name">name</div>
+            <div id="tt">temp</div>
+            <div id="ii"></div>
+            <div id="dd">date</div>
+        </div>
+        <div id="day1">
+            <div id="dot2">🔴</div>
+            <div id="tomorrow">TOMORROW</div>
+            <div id="name">name</div>
+            <div id="tt">temp</div>
+            <div id="ii"></div>
+            <div id="dd">date</div>
+        </div>
+        <div id="day2">
+            <div id="name">name</div>
+            <div id="tt">temp</div>
+            <div id="ii"></div>
+            <div id="dd">date</div>
+        </div>
+        <div id="day3">
+            <div id="name">name</div>
+            <div id="tt">temp</div>
+            <div id="ii"></div>
+            <div id="dd">date</div>
+        </div>
+        <div id="day4">
+            <div id="name">name</div>
+            <div id="tt">temp</div>
+            <div id="ii"></div>
+            <div id="dd">date</div>
+        </div>
+        
+
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
